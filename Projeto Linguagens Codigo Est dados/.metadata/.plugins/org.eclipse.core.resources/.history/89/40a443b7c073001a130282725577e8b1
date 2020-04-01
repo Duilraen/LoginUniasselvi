@@ -1,0 +1,18 @@
+package trabalhandoswitchcase;
+
+import javax.swing.JOptionPane;
+
+public class Lanchonete {
+
+	public static void main(String[] args) {
+		
+		int opcao;
+		int qtde;
+		double valorTotal;
+		
+		JOptionPane.showMessageDialog(null,"Especificacao Codigo  Preco\nCachorro Quente 100   1,20"
+				+ "\nBauru simples    101 1,30 \nBauru com ovo   102  1,50 ");
+
+	}
+
+}

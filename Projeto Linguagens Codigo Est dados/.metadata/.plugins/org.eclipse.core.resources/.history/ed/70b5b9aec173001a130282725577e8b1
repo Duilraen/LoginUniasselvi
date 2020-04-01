@@ -1,0 +1,26 @@
+package trabalhandoswitchcase;
+
+import javax.swing.JOptionPane;
+
+public class Lanchonete {
+
+	public static void main(String[] args) {
+		
+		int codigo;
+		int qtde;
+		double valorTotal;
+		
+		codigo= Integer.parseInt(JOptionPane.showInputDialog(null,"Especificacao Codigo  Preco\nCachorro Quente 100   R$1,20"
+				+ "\nBauru simples      101   R$1,30 \nBauru com ovo     102   R$1,50 "));
+
+		switch (codigo) {
+		case 100:
+			
+			break;
+case 100:
+			
+			break;
+		}
+	}
+
+}

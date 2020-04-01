@@ -1,0 +1,18 @@
+package trabalhandoswitchcase;
+
+public class CalcularPlanoSalarial {
+
+	public static void main(String[] args) {
+		// valorPerc = (valor*perc/100) // obtendo somente o valor do percentual
+		//valor = valor + valorPerc
+		
+		//ou
+		//valor = (valor*perc/100)+ valor
+		
+		//ou
+		// valor = (valor*p) + valor
+		
+
+	}
+
+}
