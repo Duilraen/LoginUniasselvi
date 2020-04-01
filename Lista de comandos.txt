@@ -1,0 +1,62 @@
+BOTAO INICIAR -> TODOS OS PROGRAMAS -> GIT -> GIT BASH
+
+ 
+
+
+ls - lista conteudo do diretorio
+
+pwd - exibe o caminho do diretorio atual
+
+cd - carrega diretorio
+
+ 
+
+
+
+git clone (endereco do repositorio)
+
+cd (nome do repositorio)
+
+git checkout -b guilherme
+
+ 
+
+
+git config --global user.email "guigoinfosis@gmail.com"
+
+git config --global user.name "guigoinfosis"
+
+ 
+
+
+
+/* comentario: envio de modificacoes para o servidor */
+
+
+git status
+git add (nome do arquivo 1) (nome do arquivo 2) ...
+
+git status
+
+git commit -m "Atualizacao da classe Pessoa"
+
+git push origin everton
+
+ 
+
+
+
+
+/* depois de tudo */
+
+exit
+
+ 
+
+
+
+/* comentario: baixar modificacoes do servidor */
+
+/* NÃO USAR EM MOMENTO ALGUM AINDA */
+
+git pull origin everton
