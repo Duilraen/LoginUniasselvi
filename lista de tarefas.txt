@@ -1,0 +1,5 @@
+Vamos as tarefas:
+
+1- criar as classes
+2- criar os atributos
+3- criar os metodos
