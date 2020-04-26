@@ -1,0 +1,32 @@
+package trabalhandoswitchcase;
+
+import javax.swing.JOptionPane;
+
+public class ContaCorrente {
+
+	public static void main(String[] args) {
+		String nome;
+		String conta;
+		int opcao;
+		
+		
+		double saldo = 100.0;
+		
+		nome = JOptionPane.showInputDialog("Informe seu nome");
+		conta = JOptionPane.showInputDialog("informe sua conta");
+		opcao = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite: /n1-Deposito /n2-Saque /n3-saldo"));
+	  
+		switch(opcao) {
+		case 1:
+			
+			break;
+case 1:
+			
+			break;
+			
+		default:
+			break;
+	
+	}
+
+}
