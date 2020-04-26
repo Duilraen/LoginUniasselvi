@@ -6,8 +6,8 @@ public class PessoaFisica extends Pessoa {
     	 this.cpf = "";
      }
 
-	public String getCpf() {
-		return cpf;
+	public void getCpf() {
+		 this.cpf = cpf;
 	}
 
 	public void setCpf(String cpf) {

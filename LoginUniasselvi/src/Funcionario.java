@@ -18,8 +18,8 @@ public class Funcionario  extends PessoaFisica {
 		this.nome = nome;
 	}
 	
-	public String getCpf() {
-		return cpf;
+	public void getCpf() {
+		 this.cpf = cpf;
 	}
 	
 	public void setCpf(String cpf) {
@@ -36,9 +36,6 @@ public class Funcionario  extends PessoaFisica {
 	
 	public double getBonificacao() {
 		return this.salario * 0.10;
-	}
-	
-	public String toString() {
-		return "Nome: " + this.getNome() + " / CPF: " + this.getCpf() + " / Salario: " + this.getSalario();
+
 	}
 }

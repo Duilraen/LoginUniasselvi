@@ -10,8 +10,8 @@ public class Academico extends PessoaFisica {
 		public void setMatricula(int matricula) {
 			this.matricula = matricula;
 		}
-		public int getCpf() {
-			return cpf;
+		public void getCpf() {
+			this.cpf = cpf;
 		}
 		public void setCpf(int cpf) {
 			this.cpf = cpf;
@@ -26,4 +26,3 @@ public class Academico extends PessoaFisica {
 		
 		
 	}
-}
