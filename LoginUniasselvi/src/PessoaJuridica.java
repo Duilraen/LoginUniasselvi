@@ -10,7 +10,7 @@ public String getCnpj() {
 	return cnpj;
 }
 
-public void setCnpj(String cnpj) {
+public void setCCnpj(String cnpj) {
 	this.cnpj = cnpj;
 }
   

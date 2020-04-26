@@ -1,5 +1,5 @@
 
-public class Funcionario {
+public class Funcionario  extends PessoaFisica {
 	private String nome;
 	private String cpf;
 	private double salario;
